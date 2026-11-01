@@ -1,0 +1,44 @@
+{
+  "novoUsuario": {
+    "nomeDoUsuario": "Wanessa Teles",
+    "emailDoUsuario": "wanessa1@gmail.com",
+    "senhaDoUsuario": "123456",
+    "dataDeNascimento": {
+      "dia": "10",
+      "mes": "May",
+      "ano": "1990"
+    },
+    "primeiroNomeDoUsuario": "Wanessa",
+    "ultimoNomeDoUsuario": "Teles",
+    "empresaDoUsuario": "PGATS",
+    "enderecoDoUsuario": "Rua das Flores, 123",
+    "enderecoDoUsuario2": "Apto 456",
+    "paisDoUsuario": "United States",
+    "estadoDoUsuario": "California",
+    "cidadeDoUsuario": "Los Angeles",
+    "cepDoUsuario": "90001",
+    "celularDoUsuario": "+1 123-456-7890"
+  },
+
+  "usuarioJaCadastrado": {
+    "nomeDoUsuario": "Maria Silva",
+    "emailDoUsuario": "maria.silva@gmail.com"
+  },
+
+  "usuarioComDadosIncorretos" : {
+    "emailDoUsuario": "joao.souza@gmail.com",
+    "senhaDoUsuario": "123"
+  },
+
+  "usuarioComDadosValidos" : {
+    "emailDoUsuario": "wanessa1@gmail.com",
+    "senhaDoUsuario": "123456"
+  },
+
+  "usuario2Cadastrado" : {
+    "nomeDoUsuario": "gaga",
+    "emailDoUsuario": "gaga1@gmail.com",
+    "senhaDoUsuario": "123456"
+  }
+
+}

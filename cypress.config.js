@@ -1,10 +1,14 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  retries: 1,
+  reporter: 'cypress-mochawesome-reporter',
   e2e: {
-      baseUrl: "https://www.automationexercise.com/", //Configurando a URL para abrir o site de compras
+    watchForFileChanges: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl: 'https://automationexercise.com/',
+    chromeWebSecurity: false
   },
 });

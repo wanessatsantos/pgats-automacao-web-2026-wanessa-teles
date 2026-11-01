@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-11-01T00:44:13.358Z",
+    "end": "2026-11-01T00:44:16.824Z",
+    "duration": 3466,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cc9162d7-635d-4e22-a822-1ebc82e83054",
+      "title": "",
+      "fullFile": "cypress/e2e/fluxoDeCompras.cy.js",
+      "file": "cypress/e2e/fluxoDeCompras.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f797046d-8f43-445f-bda6-a394d9c659bc",
+          "title": "Fluxo de Compras",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "deve cadastrar um novo usuário",
+              "fullTitle": "Fluxo de Compras deve cadastrar um novo usuário",
+              "timedOut": null,
+              "duration": 3426,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.automationexercise.com/');\ncy.get('a[href*=login]');",
+              "err": {},
+              "uuid": "31cf8500-ef7a-43ac-8399-3e2291512a5e",
+              "parentUUID": "f797046d-8f43-445f-bda6-a394d9c659bc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "31cf8500-ef7a-43ac-8399-3e2291512a5e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3426,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "8.1.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports/html/.jsons"
+      },
+      "version": "6.3.2"
+    }
+  }
+}

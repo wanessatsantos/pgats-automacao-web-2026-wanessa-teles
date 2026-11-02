@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-11-01T20:34:54.388Z",
+    "end": "2026-11-01T20:35:09.044Z",
+    "duration": 14656,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cd15e681-0ec7-463b-8a9c-8a5fa5e92b0e",
+      "title": "",
+      "fullFile": "cypress/e2e/fluxoDeCompras.cy.js",
+      "file": "cypress/e2e/fluxoDeCompras.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "532cd5f2-f849-4848-897f-8b7ed4234823",
+          "title": "Fluxo de Compras - Trabalho Final De Automação Web com Cypress",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "deve buscar por produto e exibir produto buscado",
+              "fullTitle": "Fluxo de Compras - Trabalho Final De Automação Web com Cypress deve buscar por produto e exibir produto buscado",
+              "timedOut": null,
+              "duration": 8989,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Acessar a tela de produtos\n_produtos.default.acessarSessaoProdutos();\n//Verificar que o usuário acessou a página com todos os produtos e navegue na página\n_produtos.default.confirmacaoDeAcessoTelaDeProdutos();\n//Buscar por produto\n_produtos.default.buscarPorProduto(_conjuntoDeDados.default.produtoABuscar.nomeDoProduto);\n//Verificar que o produto foi buscado com sucesso\n_produtos.default.confirmacaoDeBuscaPorProduto();",
+              "err": {},
+              "uuid": "426d11ee-27ba-42b0-8b71-96eb7b3f19d5",
+              "parentUUID": "532cd5f2-f849-4848-897f-8b7ed4234823",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "deve inscrever email do usuario",
+              "fullTitle": "Fluxo de Compras - Trabalho Final De Automação Web com Cypress deve inscrever email do usuario",
+              "timedOut": null,
+              "duration": 5552,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Acessar a Home Page\n_subscription.default.acessarHomePage();\n//Increver o email do usuário com sucesso\n_subscription.default.increverEmail(_conjuntoDeDados.default.emailParaIncrever.emailDoUsuario);\n//Confirmar que o email foi inscrito com sucesso\n_subscription.default.confirmacacaoDeEmailInscrito();",
+              "err": {},
+              "uuid": "9180c101-3f8e-405a-9ad2-88c9998052eb",
+              "parentUUID": "532cd5f2-f849-4848-897f-8b7ed4234823",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "426d11ee-27ba-42b0-8b71-96eb7b3f19d5",
+            "9180c101-3f8e-405a-9ad2-88c9998052eb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14541,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "8.1.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports/html/.jsons"
+      },
+      "version": "6.3.2"
+    }
+  }
+}

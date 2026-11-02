@@ -39,6 +39,18 @@
     "nomeDoUsuario": "gaga",
     "emailDoUsuario": "gaga1@gmail.com",
     "senhaDoUsuario": "123456"
+  }, 
+
+  "produtoABuscar": {
+    "nomeDoProduto": "Sleeveless Dress"
+  }, 
+
+  "dadosDoCartao": {
+    "nomeDoCartaoDoUsuario": "Shirley Kim",
+    "numeroDoCartaoDoUsuario": "349634058626124",
+    "numeroDoCVC": "9000",
+    "dataDeValidadeCartaoMes": "09",
+    "dataDeValidadeCartaoAno": "2034"
   }
 
 }
